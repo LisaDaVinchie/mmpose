@@ -1,3 +1,37 @@
+venv/
+
+# -----------------MMPOSE-----------------
+
+# custom
+mmpose/.mim
+/models
+/data
+.vscode
+.idea
+*.pkl
+*.pkl.json
+*.log.json
+*.npy
+work_dirs/
+docs/**/topics/
+docs/**/papers/*.md
+docs/**/datasets.md
+docs/**/modelzoo.md
+
+!tests/data/**/*.pkl
+!tests/data/**/*.pkl.json
+!tests/data/**/*.log.json
+!tests/data/**/*.pth
+!tests/data/**/*.npy
+!tests/data/**/vis/
+
+# Pytorch
+*.pth
+
+*.DS_Store
+
+# -----------------TEMPLATE-----------------
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -104,31 +138,3 @@ venv.bak/
 
 # mypy
 .mypy_cache/
-
-# custom
-mmpose/.mim
-/models
-/data
-.vscode
-.idea
-*.pkl
-*.pkl.json
-*.log.json
-*.npy
-work_dirs/
-docs/**/topics/
-docs/**/papers/*.md
-docs/**/datasets.md
-docs/**/modelzoo.md
-
-!tests/data/**/*.pkl
-!tests/data/**/*.pkl.json
-!tests/data/**/*.log.json
-!tests/data/**/*.pth
-!tests/data/**/*.npy
-!tests/data/**/vis/
-
-# Pytorch
-*.pth
-
-*.DS_Store
